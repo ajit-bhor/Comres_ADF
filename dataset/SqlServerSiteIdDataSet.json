@@ -1,0 +1,27 @@
+{
+	"name": "SqlServerSiteIdDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQLServerLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "SiteID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "SiteName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "sitecontroller"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

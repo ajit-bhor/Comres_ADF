@@ -1,0 +1,24 @@
+{
+	"name": "DevicesApiRestDataSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DeviceApiLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"siteId": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": {
+				"value": "@concat('api/devices/paging?siteId=',dataset().siteId)",
+				"type": "Expression"
+			}
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

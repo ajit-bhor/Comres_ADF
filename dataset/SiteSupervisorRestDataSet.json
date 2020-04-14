@@ -1,0 +1,16 @@
+{
+	"name": "SiteSupervisorRestDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SiteSupervisorLinedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": "api/sites/paging"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

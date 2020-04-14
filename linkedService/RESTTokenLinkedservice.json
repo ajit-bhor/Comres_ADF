@@ -1,0 +1,15 @@
+{
+	"name": "RESTTokenLinkedservice",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "http://192.168.114.134/uaa/auth",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Basic",
+			"userName": "administrator",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkNPTVJFUy1TSVRFLVNVUEVSVklTT1ItQURGXzU3OWFlMTI3LWI2MTgtNDFjNi1iMDhlLTE2M2FjZWI5OTMwNSINCn0="
+		}
+	}
+}

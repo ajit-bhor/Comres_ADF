@@ -1,0 +1,16 @@
+{
+	"name": "DevicesApiRestDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DevicesApiLinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": "api/devices/paging"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
