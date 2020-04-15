@@ -510,7 +510,7 @@
 												"X-TENANT-ID": "gdctest"
 											},
 											"paginationRules": {
-												"QueryParameters['page']": "1"
+												"AbsoluteUrl": "HTTP://192.168.114.134/inventory/api/devices/paging?siteId=7"
 											}
 										},
 										"sink": {
