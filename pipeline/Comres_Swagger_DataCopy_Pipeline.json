@@ -169,9 +169,6 @@
 											"type": "Expression"
 										},
 										"X-TENANT-ID": "gdctest"
-									},
-									"paginationRules": {
-										"AbsoluteUrl": "HTTP://192.168.114.134/inventory/api/devices/paging?siteId=7"
 									}
 								},
 								"sink": {
