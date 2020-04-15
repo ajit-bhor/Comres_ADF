@@ -171,7 +171,7 @@
 										"X-TENANT-ID": "gdctest"
 									},
 									"paginationRules": {
-										"QueryParameters.page": "1"
+										"QueryParameters['page']": "1"
 									}
 								},
 								"sink": {
