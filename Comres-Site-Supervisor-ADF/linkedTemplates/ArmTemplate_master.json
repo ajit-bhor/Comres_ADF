@@ -39,6 +39,10 @@
 			"type": "string",
 			"defaultValue": "HTTP://192.168.114.134/inventory/"
 		},
+		"SpecificSiteIdDevicesLinkedService_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "HTTP://192.168.114.134/inventory/api/devices/paging?siteId=7"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -89,6 +93,9 @@
 					},
 					"SiteSupervisorLinedService_properties_typeProperties_url": {
 						"value": "[parameters('SiteSupervisorLinedService_properties_typeProperties_url')]"
+					},
+					"SpecificSiteIdDevicesLinkedService_properties_typeProperties_url": {
+						"value": "[parameters('SpecificSiteIdDevicesLinkedService_properties_typeProperties_url')]"
 					}
 				}
 			},

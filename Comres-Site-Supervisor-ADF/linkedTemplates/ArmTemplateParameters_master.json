@@ -29,6 +29,9 @@
 		"SiteSupervisorLinedService_properties_typeProperties_url": {
 			"value": "HTTP://192.168.114.134/inventory/"
 		},
+		"SpecificSiteIdDevicesLinkedService_properties_typeProperties_url": {
+			"value": "HTTP://192.168.114.134/inventory/api/devices/paging?siteId=7"
+		},
 		"containerUri": {
 			"value": ""
 		},
