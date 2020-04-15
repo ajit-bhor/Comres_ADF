@@ -1,0 +1,16 @@
+{
+	"name": "SpecificSiteIdDevicesLinkedService",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "HTTP://192.168.114.134/inventory/api/devices/paging?siteId=7",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		},
+		"connectVia": {
+			"referenceName": "SelfHostedIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
