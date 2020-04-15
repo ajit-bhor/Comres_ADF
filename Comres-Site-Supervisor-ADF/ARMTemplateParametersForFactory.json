@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Comres-Site-Supervisor-ADF"
+		},
+		"RESTTokenLinkedservice_password": {
+			"value": ""
+		},
+		"SQLServerLinkedService_connectionString": {
+			"value": ""
+		},
+		"SqlServerSiteDevicesLinkedService_connectionString": {
+			"value": ""
+		},
+		"DeviceApiLinkedService_properties_typeProperties_url": {
+			"value": "HTTP://192.168.114.134/inventory/"
+		},
+		"DevicesApiLinkedservice_properties_typeProperties_url": {
+			"value": "http://192.168.114.134/inventory/"
+		},
+		"RESTTokenLinkedservice_properties_typeProperties_url": {
+			"value": "http://192.168.114.134/uaa/auth"
+		},
+		"RESTTokenLinkedservice_properties_typeProperties_userName": {
+			"value": "administrator"
+		},
+		"SiteSupervisorLinedService_properties_typeProperties_url": {
+			"value": "HTTP://192.168.114.134/inventory/"
+		}
+	}
+}
