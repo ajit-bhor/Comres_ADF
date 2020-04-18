@@ -109,36 +109,6 @@
 						"type": "DatasetReference"
 					}
 				]
-			},
-			{
-				"name": "Set FAILURE",
-				"type": "SetVariable",
-				"dependsOn": [
-					{
-						"activity": "SiteApiCopy",
-						"dependencyConditions": [
-							"Failed"
-						]
-					}
-				],
-				"userProperties": [],
-				"typeProperties": {
-					"variableName": "",
-					"value": ""
-				}
-			},
-			{
-				"name": "Set SUCCESS",
-				"type": "SetVariable",
-				"dependsOn": [
-					{
-						"activity": "SiteApiCopy",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"userProperties": []
 			}
 		],
 		"parameters": {
