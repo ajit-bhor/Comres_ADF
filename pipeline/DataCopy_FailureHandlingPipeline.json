@@ -62,7 +62,7 @@
 						"requestMethod": "GET",
 						"additionalHeaders": {
 							"Authorization": {
-								"value": "@concat('Bearer ', activity('GetBearerToekn').output.access_token)",
+								"value": "@concat('Bearer ', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJyb2xlX2lkIjoxLCJ1c2VyX25hbWUiOiJhZG1pbmlzdHJhdG9yIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwiaXNzIjoiUmV0YWlsIFNvbHV0aW9ucyIsImV4cCI6MTU4Njk0MTk2OSwiYnlwYXNzX2NvbnRyb2xsZXJfc2VjdXJpdHkiOnRydWUsImF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iXSwianRpIjoiZGJhYzBmMjEtN2QwNS00YWY1LTkyN2YtMDE0NjgxYTRhMTY3IiwidGVuYW50IjoiZ2RjdGVzdCIsImNsaWVudF9pZCI6Im15LXRydXN0ZWQtY2xpZW50LXdpdGgtc2VjcmV0In0.3Ni7lPoZaMnNxDq_KZpj7qYMTPxo8KfF_MdK-_HSZEY')",
 								"type": "Expression"
 							},
 							"X-TENANT-ID": "gdctest"
@@ -141,6 +141,16 @@
 				"userProperties": []
 			}
 		],
+		"parameters": {
+			"Failure": {
+				"type": "string",
+				"defaultValue": "0"
+			},
+			"Success": {
+				"type": "string",
+				"defaultValue": "0"
+			}
+		},
 		"annotations": []
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
