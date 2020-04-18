@@ -124,6 +124,11 @@
 				"userProperties": []
 			}
 		],
+		"parameters": {
+			"s1": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
