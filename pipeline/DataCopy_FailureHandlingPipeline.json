@@ -282,15 +282,12 @@
 						]
 					}
 				],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": ""
+				}
 			}
 		],
-		"parameters": {
-			"Failure": {
-				"type": "string",
-				"defaultValue": "0"
-			}
-		},
 		"annotations": []
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
